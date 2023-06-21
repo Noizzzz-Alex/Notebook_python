@@ -47,3 +47,11 @@ class NoteService:
                 self.note_repository.save_notes(notes)
                 return
         raise ValueError("Note with the specified ID was not found.")
+
+    def filter_notes_by_date(self, date):
+        notes = self.note_repository.load_notes()
+        filtered_notes = []
+        for note in notes:
+            if note.created_at.startswith(date):
+                filtered_notes.append(note)
+        return filtered_notes
