@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "First test note",
+        "body": "this is first note for test",
+        "created_at": "2023-06-22 00:59:09",
+        "updated_at": "2023-06-22 00:59:09"
+    },
+    {
+        "id": "2",
+        "title": "second note for test",
+        "body": "this is second note for test",
+        "created_at": "2023-06-22 00:59:43",
+        "updated_at": "2023-06-22 00:59:43"
+    }
+]
